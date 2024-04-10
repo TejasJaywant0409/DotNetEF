@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TejasSutar\\Desktop\\Tejas\\DotNet - Copy\\DotNetEF\\EntityFramework\\EntityFramework\\EntityFramework.csproj": {}
+    "D:\\Tejas\\DotNet - Copy\\EntityFramewotkProject\\EntityFramework\\EntityFramework\\EntityFramework.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TejasSutar\\Desktop\\Tejas\\DotNet - Copy\\DotNetEF\\EntityFramework\\EntityFramework\\EntityFramework.csproj": {
+    "D:\\Tejas\\DotNet - Copy\\EntityFramewotkProject\\EntityFramework\\EntityFramework\\EntityFramework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TejasSutar\\Desktop\\Tejas\\DotNet - Copy\\DotNetEF\\EntityFramework\\EntityFramework\\EntityFramework.csproj",
+        "projectUniqueName": "D:\\Tejas\\DotNet - Copy\\EntityFramewotkProject\\EntityFramework\\EntityFramework\\EntityFramework.csproj",
         "projectName": "EntityFramework",
-        "projectPath": "C:\\Users\\TejasSutar\\Desktop\\Tejas\\DotNet - Copy\\DotNetEF\\EntityFramework\\EntityFramework\\EntityFramework.csproj",
+        "projectPath": "D:\\Tejas\\DotNet - Copy\\EntityFramewotkProject\\EntityFramework\\EntityFramework\\EntityFramework.csproj",
         "packagesPath": "C:\\Users\\TejasSutar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TejasSutar\\Desktop\\Tejas\\DotNet - Copy\\DotNetEF\\EntityFramework\\EntityFramework\\obj\\",
+        "outputPath": "D:\\Tejas\\DotNet - Copy\\EntityFramewotkProject\\EntityFramework\\EntityFramework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -46,6 +46,26 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
